@@ -1,0 +1,28 @@
+[class^="transform"] {
+    height: 100px;
+    width: 100px;
+    background: red;
+    color: white;
+    font-size: 15px;
+}
+
+ .transform-translate {
+    transform: translate(50px, 100px);
+}
+
+.transform-rotate {
+    transform: rotate(20deg);
+}
+
+.transform-rotateZ {
+    transform: rotateZ(90eg);
+}
+
+.transform-scale {
+    transform: scale(2, 2);
+    margin: auto;
+}
+
+.transform-skew {
+    transform: skew(20deg, 10deg);
+}
