@@ -1,7 +1,15 @@
 ol {
   list-style: none;
   font-size: 18px;
+  text-decoration: none;
 }
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
 [class^=transform] {
   height: 100px;
   width: 100px;
@@ -19,7 +27,7 @@ ol {
 }
 
 .transform-rotateZ {
-  transform: rotateZ(90eg);
+  transform: rotateZ(90deg);
 }
 
 .transform-scale {
@@ -29,4 +37,23 @@ ol {
 
 .transform-skew {
   transform: skew(20deg, 10deg);
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--backgroud-color);
+  color: var(--text-color);
 }/*# sourceMappingURL=style.css.map */
