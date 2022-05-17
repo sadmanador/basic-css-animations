@@ -65,3 +65,32 @@
 .transition-delay:hover {
     width: 500px;
 }
+
+.transition-transform {
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.transition-transform:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(360deg);
+}
+
+.transition-all {
+    transition-property: width;
+    transition-duration: 5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+}
+
+.transition-all:hover {
+    width: 300px;
+}
+
+.transition-shorthand {
+    transition: width 3s ease-in 1s;
+}
+
+.transition-shorthand:hover {
+    width: 300px;
+}
