@@ -166,6 +166,42 @@ a:active {
     background-color: yellow;
   }
 }
+.animation-colorChange-percentage {
+  -webkit-animation-name: percentage;
+          animation-name: percentage;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+}
+
+@-webkit-keyframes percentage {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: black;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+@keyframes percentage {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: black;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
 html {
   box-sizing: border-box;
   font-size: 100%;

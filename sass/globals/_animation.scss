@@ -15,3 +15,16 @@
     from {background-color: red;}
     to {background-color: yellow;}
 }
+
+.animation-colorChange-percentage {
+    animation-name: percentage;
+    animation-duration: 10s;
+}
+
+@keyframes percentage {
+    0% {background-color: red;}
+    25% {background-color: black;}
+    50% {background-color: blue;}
+    100% {background-color: green;}
+}
+
