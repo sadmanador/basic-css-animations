@@ -22,3 +22,46 @@
     width: 1000px;
     height: 400px;
 }
+
+[class*="timing"] {
+    transition: width 5s;
+}
+
+[class*="timing"]:hover {
+    width: 500px;
+}
+
+
+
+.transition-timing-function-ease {
+    transition-timing-function: ease;
+}
+
+.transition-timing-function-linear {
+    transition-timing-function: linear;
+}
+
+.transition-timing-function-ease-in {
+    transition-timing-function: ease-in;
+}
+
+.transition-timing-function-ease-out {
+    transition-timing-function: ease-out;
+}
+
+.transition-timing-function-ease-in-out {
+    transition-timing-function: ease-in-out;
+}
+
+.transition-timing-function-cubic-bezier {
+    transition-timing-function: cubic-bezier(.17,.67,.56,.42);
+}
+
+.transition-delay {
+    transition: width 3s;
+    transition-delay: 1s;
+}
+
+.transition-delay:hover {
+    width: 500px;
+}
