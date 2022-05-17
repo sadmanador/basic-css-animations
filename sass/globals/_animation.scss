@@ -1,0 +1,17 @@
+[class^="animation"] {
+    height: 100px;
+    width: 100px;
+    background: red;
+    color: white;
+    font-size: 15px;
+}
+
+.animation-colorChange {
+    animation-name: colorChange;
+    animation-duration: 10s;
+}
+
+@keyframes colorChange {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
