@@ -46,4 +46,18 @@
     100% {background-color: red; left:0px; top:0px}
 }
 
+.animation-delayed {
+    animation-name: animationDelayed;
+    animation-duration: 10s;
+    animation-delay: 2s;
+}
+
+@keyframes animationDelayed {
+    0% {background-color: white;}
+    25% {background-color: aquamarine;}
+    50% {background-color: aqua;}
+    75% {background-color: greenyellow;}
+    100% {background-color: green;}
+}
+// above box begins as red, because the all selector at first styling selected as red
 
