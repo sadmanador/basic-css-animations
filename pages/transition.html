@@ -8,8 +8,25 @@
     <title>Transition</title>
 </head>
 <body>
-    <h1><a href="../index.html">Home</a></h1>
-    <h1>Transition allows the changing smoothly over a given duration</h1>
+    <h2><a href="../index.html">Home</a></h2>
+    <div class="manu">
+        <ol>
+            <li>
+                <a href="typography.html">Typography</a>
+            </li>
+            <li>
+                <a href="transform.html">Transform</a>
+            </li>
+            <li>
+                <a href="transition.html">Transition</a>
+            </li>
+            <li>
+                <a href="animation.html">Animation</a>
+            </li>
+        </ol>
+    </div>
+    <h1>Transition</h1>
+    <h2>Transition allows the changing smoothly over a given duration</h2>
     <h2>Important Aspects</h2>
     <ol>
         <li>Transition</li>
@@ -23,13 +40,16 @@
     <h3>the effect property</h3>
     <h3>duration of the transition</h3>
     <br>
-    <h1>transition</h1>
+    <h2>transition</h2>
     <h2>transition attr and property need to be passed on in non-hoverable state and :hover will only contain the specific changes</h2>
-    <h3>div { transition: width 10s }</h3>
-    <h3>div:hover { width: 100px }</h3>
+    <code>
+        <pre>        div { transition: width 10s }
+        div:hover { width: 100px }
+        </pre>
+    </code>
     <div class="transition-width">The width will transit from origin to 1000px in 10sec</div>
     <br>
-    <h1>transition 2 values at once</h1>
+    <h2>transition 2 values at once</h2>
     <h2>two values separated by commas can be executed</h2>
     <div class="transition-width-height">width to 1000px and height to 400px upon hover</div>
     <br>

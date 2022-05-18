@@ -7,7 +7,7 @@ html {
 *::before,
 *::after{
     box-sizing: inherit;
-
+    font-size: 100%;
 }
 
 body {
@@ -16,4 +16,21 @@ body {
     padding: 0;
     background-color: var(--backgroud-color);
     color: var(--text-color);
+}
+
+//typography
+ol,ul {
+    list-style: none;
+    font-size: 18px;
+    text-decoration: none;
+    li{
+
+    }
+}
+
+a,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: black;
 }
