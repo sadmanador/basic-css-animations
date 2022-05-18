@@ -202,6 +202,10 @@ a:active {
     background-color: green;
   }
 }
+.elementPath {
+  height: 320px;
+}
+
 .animation-color-position {
   -webkit-animation-name: colorPosition;
           animation-name: colorPosition;
