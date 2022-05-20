@@ -1,7 +1,6 @@
 [class^="animation"] {
     height: 100px;
     width: 100px;
-    background: red;
     color: white;
     font-size: 15px;
 }
@@ -164,7 +163,7 @@
 //animation-timing-function
 [class*="animation-timing"] {
     animation-name: timingFunction;
-    animation-duration: 10s;
+    animation-duration: s;
     animation-iteration-count: infinite;
     position: relative;
 }

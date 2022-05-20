@@ -125,7 +125,6 @@
 [class^=animation] {
   height: 100px;
   width: 100px;
-  background: red;
   color: white;
   font-size: 15px;
 }
@@ -663,8 +662,8 @@
 [class*=animation-timing] {
   -webkit-animation-name: timingFunction;
           animation-name: timingFunction;
-  -webkit-animation-duration: 10s;
-          animation-duration: 10s;
+  -webkit-animation-duration: s;
+          animation-duration: s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   position: relative;
