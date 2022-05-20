@@ -24,7 +24,7 @@
                 <a href="animation.html">Animation</a>
             </li>
         </ol>
-    </div>
+    </div><hr>
     <h1>Animation</h1>
     <h2>Key points</h2>
     <ol>
@@ -42,6 +42,7 @@
     <br>
     Some keyframes are needed to specify in order to use the CSS animation. keyframes holds what style an element will have at certain time.
     <br>
+
     animations unlike transitions doesn't require hover event or other events.</p>
     <div class="animation-colorChange">will change color from red to green</div>
     <br>
@@ -96,9 +97,25 @@
         <div class="animation-timing-function-linear">linear: same speed from start to end</div><br>
         <div class="animation-timing-function-ease-in">ease-in: slow start</div><br>
         <div class="animation-timing-function-ease-out">ease-out: slow end</div><br>
-        <div class="animation-timing-function-ease-in-out">slow start and slow end</div><br>
-    </div>
-    <h3>cubic-bezier: can also be added to animation</h3>
-    
+        <div class="animation-timing-function-ease-in-out">slow start and slow end</div>
+    </div><br>
+    <h3>cubic-bezier: can also be added to animation</h3><br>
+    <h2>animation-fill-mode</h2>
+    <p>animation-fill-mode allows to retain certain characteristic when the animation isn't start keyframe yet, and retain the characteristic when the animation has run the last keyframe</p>
+    <h3>forwards:</h3>
+    <div class="animation-fill-mode-forwards">will retain the style of last keyframe after the last keyframe run</div><br>
+    <h3>backwards</h3>
+    <div class="animation-fill-mode-backwards">will retain the style value set by the first keyframe</div><br>
+    <h3>both</h3>
+    <div class="animation-fill-mode-both">will retain the style value of first keyframe when it's delaying and retain the value of last keyframe at the end</div><br>
+    <h2>Animation short hand</h2>
+    <code>
+        <pre>
+            div {
+                animation: animationName animDuration timingFunc animDelay iterationCount animDirection;
+            }
+        </pre>
+    </code>
+    <h3>The End</h3>
 </body>
 </html>

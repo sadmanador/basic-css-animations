@@ -3,6 +3,7 @@
     width: 100px;
     color: white;
     font-size: 15px;
+    background-color: red;
 }
 
 .elementPath {
@@ -55,6 +56,7 @@
     animation-name: animationDelayed;
     animation-duration: 10s;
     animation-delay: 2s;
+    background-color: red;
 }
 
 @keyframes animationDelayed {
@@ -163,7 +165,7 @@
 //animation-timing-function
 [class*="animation-timing"] {
     animation-name: timingFunction;
-    animation-duration: s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     position: relative;
 }
@@ -192,4 +194,29 @@
 
 .animation-timing-function-ease-in-out {
     animation-timing-function: ease-in-out;
+}
+
+//animation-fill-mode
+[class*="animation-fill"] {
+    animation-name: fillMode;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    position: relative;
+}
+
+@keyframes fillMode {
+    from {background-color: red; left: 0px;}
+    to {background-color: green; left: 500px;}
+}
+
+.animation-fill-mode-forwards {
+    animation-fill-mode: forwards;
+}
+
+.animation-fill-mode-backwards {
+    animation-fill-mode: backwards;
+}
+
+.animation-fill-mode-both {
+    animation-fill-mode: both;
 }
