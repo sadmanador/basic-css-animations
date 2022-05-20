@@ -23,11 +23,11 @@
   height: 400px;
 }
 
-[class*=timing] {
+[class*=transition-timing] {
   transition: width 5s;
 }
 
-[class*=timing]:hover {
+[class*=transition-timing]:hover {
   width: 500px;
 }
 
@@ -130,6 +130,14 @@
   font-size: 15px;
 }
 
+.elementPath {
+  height: 320px;
+}
+
+.elementPath-timing {
+  height: 560px;
+}
+
 .animation-colorChange {
   -webkit-animation-name: colorChange;
           animation-name: colorChange;
@@ -190,10 +198,6 @@
     background-color: green;
   }
 }
-.elementPath {
-  height: 320px;
-}
-
 .animation-color-position {
   -webkit-animation-name: colorPosition;
           animation-name: colorPosition;
@@ -268,7 +272,7 @@
 
 @-webkit-keyframes animationDelayed {
   0% {
-    background-color: white;
+    background-color: red;
   }
   25% {
     background-color: aquamarine;
@@ -286,7 +290,7 @@
 
 @keyframes animationDelayed {
   0% {
-    background-color: white;
+    background-color: red;
   }
   25% {
     background-color: aquamarine;
@@ -301,6 +305,425 @@
     background-color: green;
   }
 }
+.animation-negative-delay {
+  -webkit-animation-name: animationDelayed;
+          animation-name: animationDelayed;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+}
+
+@keyframes animationDelayed {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: aquamarine;
+  }
+  50% {
+    background-color: aqua;
+  }
+  75% {
+    background-color: greenyellow;
+  }
+  100% {
+    background-color: green;
+  }
+}
+.animation-iteration-count {
+  -webkit-animation-name: iteration3x;
+          animation-name: iteration3x;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  position: relative;
+  -webkit-animation-iteration-count: 3;
+          animation-iteration-count: 3;
+}
+
+@-webkit-keyframes iteration3x {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: black;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes iteration3x {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: black;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+.animation-iteration-count-infinite {
+  -webkit-animation-name: iterationInfinite;
+          animation-name: iterationInfinite;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  position: relative;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes iterationInfinite {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: black;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes iterationInfinite {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: black;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+.animation-direction-reverse {
+  -webkit-animation-name: reverseAnimation;
+          animation-name: reverseAnimation;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  animation-direction: reverse;
+  position: relative;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes reverseAnimation {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: black;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes reverseAnimation {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: black;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+.animation-direction-alternate {
+  -webkit-animation-name: alternateAnimation;
+          animation-name: alternateAnimation;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  position: relative;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes alternateAnimation {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: black;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes alternateAnimation {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: black;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+.animation-direction-alternate-reverse {
+  -webkit-animation-name: alternateReverse;
+          animation-name: alternateReverse;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  animation-direction: alternate-reverse;
+  position: relative;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes alternateReverse {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: black;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes alternateReverse {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: black;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+[class*=animation-timing] {
+  -webkit-animation-name: timingFunction;
+          animation-name: timingFunction;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  position: relative;
+}
+
+@-webkit-keyframes timingFunction {
+  0% {
+    background-color: red;
+    left: 0px;
+  }
+  50% {
+    background-color: green;
+    left: 500px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+  }
+}
+
+@keyframes timingFunction {
+  0% {
+    background-color: red;
+    left: 0px;
+  }
+  50% {
+    background-color: green;
+    left: 500px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+  }
+}
+.animation-timing-function-ease {
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+}
+
+.animation-timing-function-linear {
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.animation-timing-function-ease-in {
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+}
+
+.animation-timing-function-ease-out {
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+}
+
+.animation-timing-function-ease-in-out {
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+
 html {
   box-sizing: border-box;
   font-size: 100%;

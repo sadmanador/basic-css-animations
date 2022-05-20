@@ -6,6 +6,14 @@
     font-size: 15px;
 }
 
+.elementPath {
+    height: 320px;
+}
+
+.elementPath-timing {
+    height: 560px;
+}
+
 .animation-colorChange {
     animation-name: colorChange;
     animation-duration: 10s;
@@ -28,9 +36,7 @@
     100% {background-color: green;}
 }
 
-.elementPath {
-    height: 320px;
-}
+
 
 .animation-color-position {
     animation-name: colorPosition;
@@ -53,7 +59,7 @@
 }
 
 @keyframes animationDelayed {
-    0% {background-color: white;}
+    0% {background-color: red;}
     25% {background-color: aquamarine;}
     50% {background-color: aqua;}
     75% {background-color: greenyellow;}
@@ -61,3 +67,130 @@
 }
 // above box begins as red, because the all selector at first styling selected as red
 
+.animation-negative-delay {
+    animation-name: animationDelayed;
+    animation-duration: 10s;
+    animation-delay: -2s;
+}
+
+@keyframes animationDelayed {
+    0% {background-color: red;}
+    25% {background-color: aquamarine;}
+    50% {background-color: aqua;}
+    75% {background-color: greenyellow;}
+    100% {background-color: green;}
+}
+
+// animation iteration count
+.animation-iteration-count {
+    animation-name: iteration3x;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: 3;
+}
+
+@keyframes iteration3x {
+    0% {background-color: red; left:0px; top:0px}
+    25% {background-color: black; left:200px; top:0px}
+    50% {background-color: blue; left:200px; top:200px}
+    75% {background-color: green; left:0px; top:200px}
+    100% {background-color: red; left:0px; top:0px}
+}
+
+.animation-iteration-count-infinite {
+    animation-name: iterationInfinite;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+
+@keyframes iterationInfinite {
+    0% {background-color: red; left:0px; top:0px}
+    25% {background-color: black; left:200px; top:0px}
+    50% {background-color: blue; left:200px; top:200px}
+    75% {background-color: green; left:0px; top:200px}
+    100% {background-color: red; left:0px; top:0px}
+}
+
+//animation-direction
+.animation-direction-reverse {
+    animation-name: reverseAnimation;
+    animation-duration: 3s;
+    animation-direction: reverse;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+
+@keyframes  reverseAnimation {
+    0% {background-color: red; left:0px; top:0px}
+    25% {background-color: black; left:200px; top:0px}
+    50% {background-color: blue; left:200px; top:200px}
+    75% {background-color: green; left:0px; top:200px}
+    100% {background-color: red; left:0px; top:0px}
+}
+
+.animation-direction-alternate {
+    animation-name: alternateAnimation;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+
+@keyframes  alternateAnimation {
+    0% {background-color: red; left:0px; top:0px}
+    25% {background-color: black; left:200px; top:0px}
+    50% {background-color: blue; left:200px; top:200px}
+    75% {background-color: green; left:0px; top:200px}
+    100% {background-color: red; left:0px; top:0px}
+}
+
+.animation-direction-alternate-reverse {
+    animation-name: alternateReverse;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+
+@keyframes  alternateReverse {
+    0% {background-color: red; left:0px; top:0px}
+    25% {background-color: black; left:200px; top:0px}
+    50% {background-color: blue; left:200px; top:200px}
+    75% {background-color: green; left:0px; top:200px}
+    100% {background-color: red; left:0px; top:0px}
+}
+
+//animation-timing-function
+[class*="animation-timing"] {
+    animation-name: timingFunction;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes timingFunction {
+    0% {background-color: red; left: 0px;}
+    50% {background-color: green; left: 500px;}
+    100% {background-color: red; left: 0px;}
+}
+
+.animation-timing-function-ease {
+    animation-timing-function: ease;
+}
+
+.animation-timing-function-linear {
+    animation-timing-function: linear;
+}
+
+.animation-timing-function-ease-in {
+    animation-timing-function: ease-in;
+}
+
+.animation-timing-function-ease-out {
+    animation-timing-function: ease-out;
+}
+
+.animation-timing-function-ease-in-out {
+    animation-timing-function: ease-in-out;
+}

@@ -57,6 +57,48 @@
     <p>animation-delay property delays the start of the animation.</p>
     <div class="animation-delayed">this animation will start 2s later.</div>
     <br>
-    <p>animation delay can also be negative, in such can it will feel as if the animation was played 2s earlier</p>
+    <p>animation delay can also be negative,
+        <br>
+    following animation will feel like it started 2s earlier</p>
+    <div class="animation-negative-delay">this animation is negative delayed</div>
+    <br>
+    <h2>Animation iteration(how many time animation should run) count</h2>
+    <div class="elementPath">
+        <div class="animation-iteration-count">this animation will run 3 times compare to the previous example</div>
+    </div>
+    <h3>Infinite</h3>
+    <p>following animation with run for ever</p>
+    <div class="elementPath">
+        <div class="animation-iteration-count-infinite">this animation will run for infinite time compare to the previous example</div>
+    </div>
+    <h2>animation-direction: Animation in alternate directions</h2>
+    <ol>
+        <li>normal</li>
+        <li>reverse</li>
+        <li>alternate: animation runs 1 whole cycle normal, next cycle reverse, and then vice versa</li>
+        <li>alternate-reverse: opposite of alternate</li>
+    </ol>
+    <h3>reverse</h3>
+    <div class="elementPath">
+        <div class="animation-direction-reverse">This animation will run reverse</div>
+    </div>
+    <h3>alternate</h3>
+    <div class="elementPath">
+        <div class="animation-direction-alternate">animation runs 1 whole cycle normal, next cycle reverse, and then vice versa</div>
+    </div>
+    <h3>reverse-alternate</h3>
+    <div class="elementPath">
+        <div class="animation-direction-alternate-reverse">Opposite of alternate</div>
+    </div>
+    <h2>animation-timing-function:</h2>
+    <div class="elementPath-timing">
+        <div class="animation-timing-function-ease">Ease: Slow start, Fast middle, and end slowly</div><br>
+        <div class="animation-timing-function-linear">linear: same speed from start to end</div><br>
+        <div class="animation-timing-function-ease-in">ease-in: slow start</div><br>
+        <div class="animation-timing-function-ease-out">ease-out: slow end</div><br>
+        <div class="animation-timing-function-ease-in-out">slow start and slow end</div><br>
+    </div>
+    <h3>cubic-bezier: can also be added to animation</h3>
+    
 </body>
 </html>

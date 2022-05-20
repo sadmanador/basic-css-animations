@@ -25,11 +25,11 @@
     height: 400px;
 }
 
-[class*="timing"] {
+[class*="transition-timing"] {
     transition: width 5s;
 }
 
-[class*="timing"]:hover {
+[class*="transition-timing"]:hover {
     width: 500px;
 }
 
