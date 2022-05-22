@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="/sass/style.css">
     <title>Tooltip</title>
 </head>
-<body>
-    <h2><a href="../index.html">Home</a></h2>
+<body style="text-align: center;">
+    <h3><a href="../index.html">Home</a></h3>
     <div class="manu">
         <ol>
             <li>
@@ -25,5 +25,34 @@
             </li>
         </ol>
     </div><hr>
+    <h2>Tooltip: hoverable quick info</h2>
+    <p>following example is a basic Tooltip</p>
+    <div class="simple-tooltip">Hover over me to see the tooltip.
+        <span class="tooltipText">This is a simple Tooltip</span>
+    </div><br><hr>
+    <h2>positioning the tooltip</h2>
+    <code>
+        <pre>
+            .tooltip .tooltipText {
+                top: -5px;      <span>// to place the tooltip at the middle</span>
+                left: 105%;     <span>// to add some the space to the right so that tooltip is detached from the text</span>
+            }
+        </pre>
+    </code>
+    <div class="positioned-tooltip">Hover over me to see the tooltip.
+        <span class="tooltipText">This is a simple Tooltip</span>
+    </div><br><hr>
+    <h2>Right tooltip</h2>
+    <code>
+        <pre>
+            .tooltip .tooltipText {
+                top: -5px;      <span>// to place the tooltip at the middle</span>
+                right: 105%;     <span>// to add 5% space to the right</span>
+            }
+        </pre>
+    </code>
+    <div class="right-positioned-tooltip">Hover over me to see the tooltip.
+        <span class="tooltipText">This is a simple Tooltip</span>
+    </div><br><hr>
 </body>
 </html>

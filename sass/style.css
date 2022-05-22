@@ -805,6 +805,11 @@ a:active {
 
 pre {
   color: red;
+  text-align: left;
+}
+pre span {
+  color: rgb(71, 71, 71);
+  opacity: 0.7;
 }
 
 nav ul {
@@ -831,4 +836,66 @@ nav ul li a:hover {
   background-color: #111;
 }
 
-@forw;/*# sourceMappingURL=style.css.map */
+.simple-tooltip {
+  position: relative;
+  display: inline-block;
+}
+.simple-tooltip .tooltipText {
+  visibility: hidden;
+  width: 180px;
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.simple-tooltip:hover .tooltipText {
+  visibility: visible;
+}
+
+.positioned-tooltip {
+  position: relative;
+  display: inline-block;
+}
+.positioned-tooltip .tooltipText {
+  visibility: hidden;
+  width: 180px;
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.positioned-tooltip:hover .tooltipText {
+  visibility: visible;
+}
+
+.right-positioned-tooltip {
+  position: relative;
+  display: inline-block;
+}
+.right-positioned-tooltip .tooltipText {
+  visibility: hidden;
+  width: 180px;
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  right: 105%;
+}
+
+.right-positioned-tooltip:hover .tooltipText {
+  visibility: visible;
+}/*# sourceMappingURL=style.css.map */
