@@ -944,4 +944,53 @@ nav ul li a:hover {
 
 .bottom-tooltip:hover .tooltipText {
   visibility: visible;
+}
+
+.rounded-border-img {
+  border-radius: 8px;
+}
+
+.circled-img {
+  border-radius: 50%;
+}
+
+.thumbnail-img {
+  border: 3px solid rgb(158, 158, 158);
+  border-radius: 10px;
+  padding: 5px;
+  width: 200px;
+}
+
+.thumbnail-img-link {
+  border: 3px solid rgb(158, 158, 158);
+  border-radius: 10px;
+  padding: 5px;
+  width: 200px;
+  float: right;
+}
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.centered {
+  display: block;
+  margin: auto;
+}
+
+div.polaroid {
+  width: 28.2%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.img-opacity {
+  opacity: 0.3;
 }/*# sourceMappingURL=style.css.map */
