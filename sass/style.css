@@ -898,4 +898,50 @@ nav ul li a:hover {
 
 .right-positioned-tooltip:hover .tooltipText {
   visibility: visible;
+}
+
+.top-tooltip {
+  position: relative;
+  display: inline-block;
+}
+.top-tooltip .tooltipText {
+  visibility: hidden;
+  width: 180px;
+  background-color: grey;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -90px;
+}
+
+.top-tooltip:hover .tooltipText {
+  visibility: visible;
+}
+
+.bottom-tooltip {
+  position: relative;
+  display: inline-block;
+}
+.bottom-tooltip .tooltipText {
+  visibility: hidden;
+  width: 180px;
+  color: #fff;
+  text-align: center;
+  background-color: grey;
+  border-radius: 6px;
+  padding: 6px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -90px;
+}
+
+.bottom-tooltip:hover .tooltipText {
+  visibility: visible;
 }/*# sourceMappingURL=style.css.map */
