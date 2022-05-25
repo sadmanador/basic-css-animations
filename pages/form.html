@@ -8,8 +8,126 @@
     <title>Form</title>
 </head>
 <body>
-    <br>
-    <form action="#" method="">   <!-- action should be backend code http,    method should be the get/post-->
+    <h1>HTML forms</h1>
+    <p>HTML form requires a form tag as a container.</p>
+    
+    
+    
+    <h2>form tag attributes</h2>
+    <ul>
+        <li><span class="attr">action:</span> what script to follow after the submission.</li>
+        <li><span class="attr">target:</span> takes 5 values. target shows the response after the form is submitted.</li>
+            <ul>
+                <li><span class="attr-value">_blank:</span> the response displayed in a new tab.</li>
+                <li><span class="attr-value">_self:</span> the response current tab.</li>
+                <li><span class="attr-value">_parent:</span> the response displayed in the parent frame.</li>
+                <li><span class="attr-value">_top:</span> the response displayed in the full body of the window.</li>
+                <li><span class="attr-value">framename:</span> the response displayed in a named iframe.</li>
+            </ul>
+        <li><span class="attr">method:</span> takes two value</li>
+            <ul>
+                <li><span class="attr-value">get</span>: is not good way of sending sensitive data.</li>
+                <li><span class="attr-value">post</span></li>
+            </ul>
+        <li><span class="attr">autocomplete:</span> by default is of, however takes the value on, means completes the form based on previous data.</li>
+        <li><span class="attr">novalidate</span> is a single attr with no value, when put means form validation will not happened</li>
+    </ul>
+
+
+
+    <h2>form elements</h2>
+    <ul>
+        <li><span class="tags">input</span></li>
+        <li><span class="tags">label</span></li>
+        <li><span class="tags">select</span></li>
+        <li><span class="tags">option</span></li>
+        <li><span class="tags">optgroup</span></li>
+        <li><span class="tags">textarea</span></li>
+        <li><span class="tags">button</span></li>
+        <li><span class="tags">fieldset</span></li>
+        <li><span class="tags">legend</span></li>
+        <li><span class="tags">datalist</span></li>
+        <li><span class="tags">output</span></li>
+    </ul>
+
+    <h2>input & label</h2>
+    <p><span class="tags">input</span> & <span class="tags">label</span> works together most of the time. input is the input field and label is the title for that field. input changes depending on the <span class="attr">type</span> attr's value. the type values are following:</p>
+
+
+
+    <ul>
+        <li><spanclass="attr-value"></spanclass=></li>
+        <li><span class="attr-value"></span></li>
+        <li><span class="attr-value"></span></li>
+        <li><span class="attr-value"></span></li>
+        <li><span class="attr-value"></span></li>
+        <li><span class="attr-value"></span></li>
+        <li><span class="attr-value"></span></li>
+        <li><span class="attr-value"></span></li>
+        <li><span class="attr-value"></span></li>
+        <li><span class="attr-value"></span></li>
+        <li><span class="attr-value"></span></li>
+        <li><span class="attr-value"></span></li>
+        <li><span class="attr-value"></span></li>
+        <li><span class="attr-value"></span></li>
+        <li><span class="attr-value"></span></li>
+    </ul>
+
+
+    <h2>label</h2>
+    <p>label is the title often goes before <span class="tags">input</span> and after <span class="attr-value">radio</span> buttons. <span class="attr">for</span> of the label should match the <span class="attr">id</span> of the <span class="tags">input.</span></p>
+
+
+    <h2>select</h2>
+    <p>select is the dropdown list of options. select acts container for the <span class="tags">option</span> tags. select, option and optgroup works together to make functional input method for the user.</p>
+    
+    
+        <h2><span class="attr">selected</span></h2>
+        <p> by default the first option is selected. to define pre-selected option, <span class="attr">selected</span> attr is used</p>
+
+        <h2><span class="attr">size: </span>specifies the number of the visible options.</h2>
+        <p>when the value is <span class="attr-value">3</span>, it show 3 option without even any dropdown</p>
+
+        <h2><span class="attr">multiple</span> (empty-attr) allows the use to select multiple option at single time.</h2>
+
+        <h2><span class="tags">textarea</span></h2>
+        <p>textarea is a multiple line input field. basically allow the user to input large data unlike names of passwords.</p>
+
+        <h2><span class="attr">rows</span> specifies the number of line in the text field is visible.</h2>
+        <h2><span class="attr">cols</span> specifies the width of characters side wise.</h2>
+
+        <h2><span class="tags">button</span> are clickable button.</h2>
+
+        <h2><span class="tags">fieldset </span>is the related grouping of form elements</h2>
+
+        <h2><span class="tags">legend </span>is the caption for the fieldset.</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <form action="#" method="">   <!-- action should be backend attr http,    method should be the get/post-->
         <fieldset>
             <legend>Sign in</legend>
                 <label for="">Username:</label>
@@ -18,6 +136,9 @@
                 <input type="password" name="fpassword" id="password">
         </fieldset>
     </form>
+
+
+
 
     <form action="#">
         <fieldset>
