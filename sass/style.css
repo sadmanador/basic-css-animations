@@ -1008,4 +1008,8 @@ div.container {
 
 .img-opacity {
   opacity: 0.3;
+}
+
+[class] .position-static {
+  position: static;
 }/*# sourceMappingURL=style.css.map */
