@@ -1021,4 +1021,12 @@ div.container {
 .position-relative {
   position: relative;
   left: 100px;
+}
+
+.position-fixed {
+  width: 300px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(221, 221, 220);
 }/*# sourceMappingURL=style.css.map */
