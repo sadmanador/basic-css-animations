@@ -1010,6 +1010,15 @@ div.container {
   opacity: 0.3;
 }
 
-[class] .position-static {
+[class*=position] {
+  border: 3px solid #73AD21;
+}
+
+.position-static {
   position: static;
+}
+
+.position-relative {
+  position: relative;
+  left: 100px;
 }/*# sourceMappingURL=style.css.map */

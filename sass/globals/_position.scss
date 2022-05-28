@@ -1,5 +1,12 @@
-[class=]
+[class*='position'] {
+    border: 3px solid #73AD21;
+}
 
 .position-static {
     position: static;
+}
+
+.position-relative {
+    position: relative;
+    left: 100px;
 }
