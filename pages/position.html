@@ -17,7 +17,7 @@
         <li><span class="attr">sticky: </span></li>
     </ul>
     <h2><span class="attr">static: </span>its by default value, it's always positioned according to the normal flow of the page.</h2>
-    <div class="position-static">this is a static element.</div><br><hr>
+    <div class="position-static">this is a <span class="attr">static</span> element.</div><br><hr>
 
 
     <h2><span class="attr">relative: </span>relative to it's normal position. can be relatively positioned with top, bottom, left and right properties. therefore, element can be adjust away from it's normal position.</h2>
@@ -25,7 +25,17 @@
     
 
     <h2><span class="attr">fixed: </span>fixed is fixed to the viewport. look at the bottom right.</h2>
-    <div class="position-fixed">This element is fixed at the bottom right.</div>
+    <div class="position-fixed">This element is fixed at the bottom right.</div><br><hr>
+
+
+    <h2><span class="attr">absolute: </span>position relative to the parent/ancestor instead of viewport</h2>
+    <div class="position-relative-parent">This is the parent element
+        <div class="position-absolute">This element is a <span class="attr">absolute</span> element embedded in a parent element, instead of viewport.</div>
+    </div><br><hr>
+
+
+    <h2><span class="attr">sticky: </span>position according to users scroll location, can be stick to all 4 sides.</h2>
+    <!-- need to add overflow -->
 
     
 
