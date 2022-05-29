@@ -1041,4 +1041,19 @@ div.container {
   position: absolute;
   top: 100px;
   right: 0px;
+}
+
+.overflow-item {
+  background-color: antiquewhite;
+  width: 400px;
+  height: 150px;
+  border: 1px black;
+  overflow: scroll;
+}
+
+.position-sticky {
+  background-color: aqua;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }/*# sourceMappingURL=style.css.map */
