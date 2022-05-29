@@ -1074,4 +1074,12 @@ img {
   top: 20px;
   left: 50px;
   font-size: 22px;
+}
+
+p.elem-class {
+  color: red;
+}
+
+.grp-1, .grp-2 {
+  color: red;
 }/*# sourceMappingURL=style.css.map */

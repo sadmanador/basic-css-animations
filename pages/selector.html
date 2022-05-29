@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/sass/style.css">
+    <title>Css selector</title>
+</head>
+<body>
+    <h1>Css selector</h1>
+    <ul>
+        <li>general selector.</li>
+        <li>Attribute selector.</li>
+        <li>pseudo-class.</li>
+        <li>pseudo-element.</li>
+    </ul>
+    <h2>General selectors</h2>
+    <p>Css can select element by their own name. in such a case there is no extra thing necessary. </p>
+    <code>
+        <pre>
+            p {
+                color: red;
+            }
+        </pre>
+    </code><br>
+
+
+    <h3>#id selector</h3>
+    <p>in this case #tag followed by an ID name is needed.</p>
+    <code>
+        <pre>
+            #idName {
+                color: red;
+            }
+        </pre>
+    </code><br>
+
+    <h3>class selector</h3>
+    <p>In case of class a period . followed by the class name is needed.</p>
+    <code>
+        <pre>
+            .className {
+                color: red;
+            }
+        </pre>
+    </code><br>
+
+    <h3>element along with class</h3>
+    <p>element then period, then class to select a specific element with class name</p>
+    <div>
+        <p>This text is without any class, therefore unaffected.</p>
+        <p class="elem-class">This text will be affected, because it has a class.</p>
+    </div>
+    <code>
+        <pre>
+            p.className {
+                color: red;
+            }
+        </pre>
+    </code><br>
+
+    <h3>Universal html selector *</h3>
+    <p>universal html element selector selects all the html elements. the following text will make all the element text <span class="attr">red</span>.</p>
+    <code>
+        <pre>
+            * {
+                color: red;
+            }
+        </pre>
+    </code><br>
+
+    <h3>HTML grouping selector.</h3>
+    <p>grouping selector works when elements are grouped with comma sign.</p><br>
+    <h3 class="grp-1">This text is grouped</h3>
+    <p class="grp-2">this text is grouped</p>
+    <h4>this text isn't grouped</h4>
+    <code>
+        <pre>
+            h3, {
+                color: red;
+            }
+        </pre>
+    </code><br><hr>
+
+    <h2>Attribute selector</h2>
+
+</body>
+</html>
