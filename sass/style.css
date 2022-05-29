@@ -1073,7 +1073,36 @@ img {
   position: absolute;
   top: 20px;
   left: 50px;
-  font-size: 22px;
+  font-size: 30px;
+}
+
+.topright {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  font-size: 30px;
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+  font-size: 30px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  font-size: 30px;
+}
+
+.middle {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  font-size: 30px;
 }
 
 p.elem-class {
