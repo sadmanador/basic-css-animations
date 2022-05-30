@@ -96,3 +96,16 @@ img {
     width: 100%;
     font-size: 30px;
 }
+
+.nth li:nth-child(3) {
+    color: red;
+}
+
+
+.first-line::first-line {
+    color: green;
+}
+
+.first-letter::first-letter {
+    color: blue;
+}
