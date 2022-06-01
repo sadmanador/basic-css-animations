@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/sass/style.css">
+    <title>Attr-selector</title>
+</head>
+<body>
+    <h2><a href="/index.html">Home</a></h2>
+
+    <h2>Attribute selector</h2>
+    <h3>element with attr</h3>
+    <p>following example is of an img element with the attr alt</p>
+    <code><pre>
+        img[alt] {
+            width: 100px;
+        }
+    </pre></code><br>
+
+    <h3>element, attr and specific attr value</h3>
+    <p>Following exam shows an element div, with an attr width and value of 100px</p>
+    <code><pre>
+        div[width="100px"] {
+
+        }
+    </pre></code><br>
+
+
+    <h3>attr with a specific word of value</h3>
+    <p>following example shows any element with title attr and a specific word flower</p>
+    <code><pre>
+        [title~='flower']{
+
+        }
+    </pre></code><br>
+
+
+    <h3>attr with value of a specific value or value and followed by a hyphen. the value has to be a whole word.</h3>
+    <code><pre>
+        [class|="top"]{
+
+        }
+    </pre></code>
+    <p>In above case, top can have other words separated by hyphen.</p><br>
+
+
+    <h3>specific attr which starts specific value. the value need not to a full word.</h3>
+    <code><pre>
+        [class^="top"] {
+
+        }
+    </pre></code>
+    <p>above code can select anything that starts with top, weather top is a full word or not.</p><br>
+
+
+
+    <h3>specific attr which ends specific value. the value need not to a full word.</h3>
+    <code><pre>
+        [class$="top"] {
+
+        }
+    </pre></code>
+    <p>above code can select anything that ends with top, weather top is a full word or not.</p><br>
+
+
+    <h3>specific attr which contain specific value. the value need not to a full word.</h3>
+    <code><pre>
+        [class*="top"] {
+
+        }
+    </pre></code>
+    <p>above code can select anything that contain with top, weather top is a full word or not. the value could be in the middle of word.</p><br>
+
+
+    <h3>form input type values.</h3>
+    <p>following selection method selects the input field with specific type.</p>
+    <code><pre>
+        input[type="text"] {
+
+        }
+        input[type="number"] {
+
+        }
+    </pre></code><br><hr>
+</body>
+</html>

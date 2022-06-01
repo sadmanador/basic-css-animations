@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/sass/style.css">
+    <title>Pseudo-class</title>
+</head>
+<body>
+    <h2><a href="/index.html">Home</a></h2>
+
+    <h2>pseudo-class</h2>
+    <p>pseudo-class are the special state of an element.</p>
+    <p>the style applied when the user:</p>
+    <ul>
+        <li>mouse hovers over an element.</li>
+        <li>visits or unvisited links.</li>
+        <li>style the element when it's focused.</li>
+    </ul><br>
+
+    <h3>pseudo-class for a tags</h3>
+    <ul>
+        <li><span class="attr">a:link </span>for default links.</li>
+        <li><span class="attr">a:visited </span>for visited links.</li>
+        <li><span class="attr">a:hover </span>when the link is hovered.</li>
+        <li><span class="attr">a:active </span>to make a link look active.</li>
+    </ul><hr>
+
+
+    <h2>child selection.</h2>
+    <h3><span class="attr">:first-child </span>select the first child of a parent element.</h3>
+    <code><pre>
+        ul li:first-child {
+
+        }
+    </pre></code><br>
+
+    <h3><span class="attr">:first-of-child </span>elements that is the first element of it's parent</h3>
+    <p>should select every p tag in all the div</p>
+    <code><pre>
+        div p:first-of-type {
+
+        }
+    </pre></code><br>
+
+    <h3>:last-child</h3>
+    <p>selects the last child of the parent</p>
+
+    <h3>:last-of-type</h3>
+    <p>selects every last child of similar parent element.</p>
+
+    <h3>:nth-child(n)</h3>
+    <p>selects the nth number of child from its parent.</p>
+    <ul class="nth">
+        <li>apple</li>
+        <li>apple</li>
+        <li>apple</li>
+        <li>apple</li>
+        <li>apple</li>
+    </ul>
+    <p>in above case, 3th child is selected.</p><br>
+
+
+    <h3>:nth-last-child(n)</h3>
+    <p>selects the nth number of child from last of its parent.</p><br>
+
+    <h3>:only-child</h3>
+    <p>select the parent that have only one child.</p><br><hr>
+
+    <h1>pseudo-class for form input</h1>
+    <h3><span class="attr">:checked </span>selects the checked input element.</h3>
+
+    <h3><span class="attr">:disabled </span>selects any disabled input element</h3>
+
+    <h3><span class="attr">:enabled </span>selects enabled input element.</h3>
+
+    <h3><span class="attr">:focus</span> select input element with focus attr.</h3>
+
+    <h3><span class="attr">:in-range </span>selects the input element with specific range</h3>
+
+
+    <h3><span class="attr">:out-of-range </span>select the input element with value over of the range.</h3>
+
+    <h3><span class="attr">:valid </span>select all the input element with a valid value.</h3>
+
+
+    <h3><span class="attr">:invalid </span>selects all the input element with an invalid value.</h3>
+
+    <h3><span class="attr">:required </span>selects the input element with "required attr</h3>
+
+    <h3><span class="attr">:optional </span>selects element with no "required" attr</h3>
+
+
+    <h3><span class="attr">:read-only </span>selects input element with read-only attr.</h3><br><hr>
+
+</body>
+</html>
