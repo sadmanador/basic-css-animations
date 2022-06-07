@@ -7,9 +7,33 @@
     <link rel="stylesheet" href="/sass/style.css">
     <title>Image style</title>
 </head>
-<body>
+<body class="img-style">
     <h2><a href="/index.html">Home</a></h2>
 
+
+    <h2>Rounded corners</h2>
     <img class="rounded-border" src="/img/respon-img.jpg" alt="">
+    <code>
+        <pre>
+            img {
+                border-radius: 25px;
+            }
+        </pre>
+    </code><br>
+
+    <h2>Circular img</h2>
+    <img class="rounded-img" src="/img/respon-img.jpg" alt="">
+    <p>above img style can be done by 2 way, either set border-radius to half of the height and width, or set to 50%</p>
+    <code>
+        <pre>
+            img {
+                border-radius: 50%;
+            }
+        </pre>
+    </code>
+
+    <h2>thumbnail img</h2>
+    <img class="thumbnail-img" src="/img/respon-img.jpg" alt="">
+
 </body>
 </html>
