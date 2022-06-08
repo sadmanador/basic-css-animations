@@ -1000,7 +1000,7 @@ pre span {
   max-width: 800px;
 }
 
-.rounded-border {
+.rounded-border-img {
   border-radius: 25px;
 }
 
@@ -1008,7 +1008,7 @@ pre span {
   border-radius: 50%;
 }
 
-.thumbnail-img {
+.thumbnail-img, .link-img {
   padding: 5px;
   border: 1px solid black;
   border-radius: 15px;
