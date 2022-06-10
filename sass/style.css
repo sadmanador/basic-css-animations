@@ -1136,4 +1136,25 @@ p.elem-class {
 
 .grp-1, .grp-2 {
   color: red;
+}
+
+.text-shadow {
+  text-shadow: 5px 5px;
+  font-size: 22px;
+}
+
+.color-shadow {
+  text-shadow: 5px 5px red;
+  font-size: 22px;
+}
+
+.blur-effect {
+  text-shadow: 3px 3px 5px blue;
+  font-size: 22px;
+}
+
+.whiteText-blackShadow {
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  font-size: 22px;
 }/*# sourceMappingURL=style.css.map */
