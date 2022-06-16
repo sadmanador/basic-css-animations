@@ -1010,8 +1010,53 @@ pre span {
 
 .thumbnail-img, .link-img {
   padding: 5px;
-  border: 1px solid black;
   border-radius: 15px;
+}
+
+.hover-img {
+  margin: auto;
+}
+
+.hover-img:hover {
+  box-shadow: 8px 10px 5px rgba(0, 0, 0, 0.4), 10px 15px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 15px;
+}
+
+.img-filter {
+  margin: auto;
+}
+.img-filter img {
+  width: 25%;
+  height: auto;
+  max-width: 235px;
+  float: left;
+}
+.img-filter .blur {
+  filter: blur(5px);
+}
+.img-filter .brightness {
+  filter: brightness(250%);
+}
+.img-filter .contrast {
+  filter: contrast(200%);
+}
+.img-filter .grayscale {
+  filter: grayscale(100%);
+}
+.img-filter .heurotate {
+  filter: hue-rotate(180deg);
+}
+.img-filter .invert {
+  filter: invert(100%);
+}
+.img-filter .opacity {
+  filter: opacity(50%);
+}
+.img-filter .saturate {
+  filter: sepia(100%);
+}
+.img-filter .shadow {
+  filter: drop-shadow(8px 5px 10px green);
 }
 
 [class*=position] {
