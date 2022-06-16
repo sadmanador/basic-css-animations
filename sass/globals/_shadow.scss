@@ -100,7 +100,7 @@ div.polaroid {
     background-color: white;
     margin: 25%;
     margin: auto;
-    transition: box-shadow 0.5s ease-in-out, width 0.3s, height 0.3s;
+    transition: box-shadow 0.5s ease-in-out, transform 0.5s;
 
     .polaroid-text {
         text-align: center;
@@ -114,7 +114,6 @@ div.polaroid {
 
 div.polaroid:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 100%;
-    height: 100%;
+    transform: scale(1.1, 1.1);
 }
 
