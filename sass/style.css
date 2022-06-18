@@ -1030,6 +1030,8 @@ pre span {
   height: auto;
   max-width: 235px;
   float: left;
+  padding-left: 10px;
+  padding-bottom: 8px;
 }
 .img-filter .blur {
   filter: blur(5px);
