@@ -1,0 +1,20 @@
+[class*='overflow-'] {
+    margin: auto;
+    width: 200px;
+    height: 65px;
+    background-color: orange;
+}
+
+
+.container-overflow {
+    height: 250px;
+}
+
+.overflow-visible {
+    overflow: visible;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+

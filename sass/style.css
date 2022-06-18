@@ -992,10 +992,6 @@ pre span {
   visibility: visible;
 }
 
-.img-style {
-  text-align: center;
-}
-
 [class$=img] {
   max-width: 800px;
 }
@@ -1298,10 +1294,29 @@ div.polaroid:hover {
   transform: scale(1.02, 1.02);
 }
 
-.shadow, .boxShadow {
+.shadow, .boxShadow, .img-style, .overflow {
   text-align: center;
 }
 
 .boxShadow {
   background-color: rgb(199, 217, 232);
+}
+
+[class*=overflow-] {
+  margin: auto;
+  width: 200px;
+  height: 65px;
+  background-color: orange;
+}
+
+.container-overflow {
+  height: 250px;
+}
+
+.overflow-visible {
+  overflow: visible;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }/*# sourceMappingURL=style.css.map */

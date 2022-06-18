@@ -1,7 +1,3 @@
-.img-style {
-    text-align: center;
-}
-
 [class$="img"] {
     max-width: 800px;
 }
@@ -47,4 +43,5 @@
 .saturate {filter: sepia(100%);}
 .shadow {filter: drop-shadow(8px 5px 10px green);}
 }
+
 
