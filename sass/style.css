@@ -1306,7 +1306,7 @@ div.polaroid:hover {
   margin: auto;
   width: 200px;
   height: 65px;
-  background-color: orange;
+  background-color: coral;
 }
 
 .container-overflow {
@@ -1318,5 +1318,12 @@ div.polaroid:hover {
 }
 
 .overflow-hidden {
+  height: 65px !important;
   overflow: hidden;
+  z-index: 1;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+  height: 200px;
 }/*# sourceMappingURL=style.css.map */
