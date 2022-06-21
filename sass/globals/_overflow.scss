@@ -24,3 +24,15 @@
     overflow: scroll;
     height: 200px;
 }
+
+.overflow-auto {
+    overflow: auto;
+    height: 200px;
+}
+
+
+.overflow-x-y {
+    overflow-y: hidden;
+    overflow-x: scroll;
+    height: 200px;
+}
