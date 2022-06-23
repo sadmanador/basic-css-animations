@@ -1103,6 +1103,43 @@ pre span {
   top: 50%;
 }
 
+.container-overlay-slide {
+  position: relative;
+  width: 50%;
+  margin: auto;
+}
+.container-overlay-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.container-overlay-slide .overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+}
+.container-overlay-slide .overlay .text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container-overlay-slide:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
 [class*=position] {
   border: 3px solid #73AD21;
 }
