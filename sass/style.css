@@ -1061,6 +1061,7 @@ pre span {
 .container-overlay {
   position: relative;
   width: 50%;
+  margin: auto;
 }
 .container-overlay .overlay-img {
   display: block;
@@ -1077,12 +1078,29 @@ pre span {
   width: 100%;
   background-color: #008CBA;
   opacity: 0;
+  transition: 0.5s ease;
 }
 .container-overlay .overlay .overlay-text {
   color: white;
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container-overlay:hover .overlay {
+  opacity: 1;
+}
+
+.container-overlay .overlay .textBox {
+  display: inline-block;
+  background-color: #4CAF50;
+  font-size: 22px;
+  padding: 15px 25px;
+  color: white;
+  margin: auto;
+  position: relative;
+  top: 50%;
 }
 
 [class*=position] {
