@@ -1,0 +1,10 @@
+.reflect-below {
+    width: 200px;
+    -webkit-box-reflect: right 55px;
+}
+
+
+.gradient-reflect {
+    width: 200px;
+    -webkit-box-reflect: left 20px linear-gradient(to left, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
