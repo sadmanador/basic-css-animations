@@ -21,3 +21,11 @@ body.gradient {
 .linear-gradient-diagonal {
     background-image: linear-gradient(to bottom right, red, yellow);
 }
+
+.linear-gradient-degree {
+    background-image: linear-gradient(150deg, red, green);
+}
+
+.linear-gradient-multiple {
+    background-image: linear-gradient(180deg, red, yellow, green);
+}
