@@ -1430,4 +1430,11 @@ div.polaroid:hover {
   overflow-y: hidden;
   overflow-x: scroll;
   height: 200px;
+}
+
+.linear-gradient {
+  width: 500px;
+  height: 200px;
+  background-color: red;
+  background-image: linear-gradient(red, yellow);
 }/*# sourceMappingURL=style.css.map */
