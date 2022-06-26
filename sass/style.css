@@ -1387,7 +1387,7 @@ div.polaroid:hover {
   transform: scale(1.02, 1.02);
 }
 
-.shadow, .boxShadow, .img-style, .overflow, .image-reflection, .gradient {
+.shadow, .boxShadow, .img-style, .overflow, .image-reflection, .gradient, .jsVariables {
   text-align: center;
 }
 
