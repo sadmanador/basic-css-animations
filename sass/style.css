@@ -1387,8 +1387,9 @@ div.polaroid:hover {
   transform: scale(1.02, 1.02);
 }
 
-.shadow, .boxShadow, .img-style, .overflow, .image-reflection, .gradient, .jsVariables {
+body {
   text-align: center;
+  background-color: white;
 }
 
 .boxShadow {
@@ -1441,6 +1442,10 @@ body.gradient {
   margin: auto;
   width: 500px;
   height: 100px;
+}
+
+.gradientLiner {
+  background-color: gray;
 }
 
 .linear-gradient {
@@ -1497,4 +1502,75 @@ body.gradient {
   width: 400px;
   height: 250px;
   background-image: radial-gradient(circle, red, green, yellow 50%);
+}
+
+.radial-gradient-size-1 {
+  color: white;
+  width: 250px;
+  height: 250px;
+  background-image: radial-gradient(closest-side at 65% 55%, red, yellow, black);
+}
+
+.radial-gradient-size-2 {
+  color: white;
+  width: 250px;
+  height: 250px;
+  background-image: radial-gradient(farthest-side at 65% 55%, red, yellow, black);
+}
+
+.radial-gradient-size-3 {
+  color: white;
+  width: 250px;
+  height: 250px;
+  background-image: radial-gradient(closest-corner at 65% 55%, red, yellow, black);
+}
+
+.radial-gradient-size-4 {
+  color: white;
+  width: 250px;
+  height: 250px;
+  background-image: radial-gradient(farthest-corner at 65% 55%, red, yellow, black);
+}
+
+.repeating-radial-gradient {
+  background-image: repeating-radial-gradient(red 5%, yellow 10%, green 8%);
+}
+
+.conic-gradient {
+  height: 250px;
+  width: 250px;
+  background-image: conic-gradient(red, yellow, green);
+}
+
+.conic-gradient-multicolor {
+  color: white;
+  height: 250px;
+  width: 250px;
+  background-image: conic-gradient(red, yellow, green, blue, black);
+}
+
+.conic-gradient-degree {
+  height: 250px;
+  width: 250px;
+  background-image: conic-gradient(red 90deg, green 360deg);
+}
+
+.conic-gradient-solidColor {
+  height: 250px;
+  width: 250px;
+  background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, blue 180deg, blue 270deg, green 270deg, green 0deg);
+}
+
+.conic-gradient-pie {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, blue 180deg, blue 270deg, green 270deg, green 0deg);
+}
+
+.conic-gradient-angle {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-image: conic-gradient(from 90deg, red, yellow, green);
 }/*# sourceMappingURL=style.css.map */
