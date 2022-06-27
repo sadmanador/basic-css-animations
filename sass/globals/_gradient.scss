@@ -132,7 +132,7 @@ body.gradient {
     height: 250px;
     width: 250px;
     border-radius: 50%;
-    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, blue 180deg, blue 270deg, green 270deg, green 0deg);
+    background-image: conic-gradient(red 0deg 90deg, yellow 90deg 180deg, blue 180deg 270deg, green 270deg 0deg);
 }
 
 .conic-gradient-angle {

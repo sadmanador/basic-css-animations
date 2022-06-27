@@ -61,12 +61,21 @@
 
     <h2>radial gradient size parameter</h2>
     <p>size parameter takes 4 values as follows:</p>
+    
     <ul>
         <li>closest-side</li>
         <li>farthest-side</li>
         <li>closest-corner</li>
         <li>farthest-corner</li>
     </ul>
+    <code>
+        <pre>
+            div {
+                background-image: radial-gradient(closest-side at 65% 55%, red, yellow, black);
+            }
+        </pre>
+    </code>
+    <p>In above case, first percentile value represents horizontal positioning, and second one is for vertical positioning. where 50% is at the middle for both values.</p>
     <div class="radial-gradient-size-1">closest-side</div><br>
     <div class="radial-gradient-size-2">farthest-side</div><br>
     <div class="radial-gradient-size-3">closest-corner</div><br>
@@ -87,6 +96,24 @@
     <div class="conic-gradient-degree"></div><br>
 
     <h2>conic gradient with no blend of color</h2>
+    <p>In this case any color value should have a start value and an end value. there're two ways to write start and end values</p>
+    <code>
+        <pre>
+            div {
+                background-image: conic-gradient
+                (red 0deg, red 90deg, yellow 90deg, yellow 180deg, blue 180deg, blue 270deg, green 270deg, green 0deg);
+            }
+        </pre>
+    </code>
+    <p>or the other one is:</p>
+    <code>
+        <pre>
+            div {
+                background-image: conic-gradient
+                (red 0deg 90deg, yellow 90deg 180deg, blue 180deg 270deg, green 270deg 0deg);
+            }
+        </pre>
+    </code>
     <div class="conic-gradient-solidColor"></div><br>
 
 
