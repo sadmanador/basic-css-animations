@@ -21,3 +21,33 @@ p.text-overflow-ellipsis {
 p.text-overflow-clip:hover, p.text-overflow-ellipsis:hover {
     overflow: visible;
 }
+
+p.word-wrap-break-word {
+    width: 140px;
+    border: 1px solid #000000;
+    word-wrap: break-word;
+    margin: auto;
+}
+
+p.word-wrap-keep-all {
+    width: 140px;
+    border: 1px solid #000000;
+    word-wrap: keep-all;
+    margin: auto;
+}
+
+p.word-wrap-break-all {
+    width: 140px;
+    border: 1px solid #000000;
+    word-wrap: break-all;
+    margin: auto;
+}
+
+.horizontal-tb {
+    writing-mode: horizontal-tb;
+}
+
+.vertical-rl {
+    margin: auto;
+    writing-mode: vertical-rl;
+}
