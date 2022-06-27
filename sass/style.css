@@ -1601,4 +1601,28 @@ body.gradient {
   width: 250px;
   border-radius: 50%;
   background-image: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, green 20deg 30deg);
+}
+
+p.text-overflow-clip {
+  background-color: white;
+  height: auto;
+  white-space: nowrap;
+  width: 200px;
+  border: 1px solid black;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+p.text-overflow-ellipsis {
+  background-color: white;
+  height: auto;
+  white-space: nowrap;
+  width: 200px;
+  border: 1px solid black;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+p.text-overflow-clip:hover, p.text-overflow-ellipsis:hover {
+  overflow: visible;
 }/*# sourceMappingURL=style.css.map */

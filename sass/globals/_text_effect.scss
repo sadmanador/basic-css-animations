@@ -1,0 +1,23 @@
+p.text-overflow-clip{
+    background-color: white;
+    height: auto;
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid black;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+p.text-overflow-ellipsis {
+    background-color: white;
+    height: auto;
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+p.text-overflow-clip:hover, p.text-overflow-ellipsis:hover {
+    overflow: visible;
+}
