@@ -123,6 +123,30 @@
 
     <h2>start angle defined</h2>
     <p>start angle is define to 90degree, that means the gradient will start from 90deg angle.</p>
-    <div class="conic-gradient-angle"></div>
+    <div class="conic-gradient-angle"></div><br>
+
+    <h2>conic gradient with specified center position.</h2>
+    <p>center position of the conic gradient can be changed by using two percentile values after "at" keyword.</p>
+    <div class="conic-gradient-specified-center"></div><br>
+
+
+    <h2>conic gradient with specified center and defined angle</h2>
+    <p>both specified center and defined angle are used in a single div. no comma should be separating "from 90deg at 70% 55%"</p>
+    <code>
+        <pre>
+            div {
+                background-image: conic-gradient(from 90deg at 75% 55%, red, yellow, green);
+            }
+        </pre>
+    </code>
+    <div class="conic-gradient-angle-center"></div><br>
+
+
+    <h2>repeating conic gradient</h2>
+    <div class="repeating-conic-gradient"></div><br>
+
+
+    <h2>repeating conic gradient</h2>
+    <div class="repeating-conic-gradient-startEnd"></div>
 </body>
 </html>

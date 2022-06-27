@@ -1573,4 +1573,32 @@ body.gradient {
   width: 250px;
   border-radius: 50%;
   background-image: conic-gradient(from 90deg, red, yellow, green);
+}
+
+.conic-gradient-specified-center {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-image: conic-gradient(at 75% 55%, red, yellow, green);
+}
+
+.conic-gradient-angle-center {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-image: conic-gradient(from 90deg at 75% 55%, red, yellow, green);
+}
+
+.repeating-conic-gradient {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-image: repeating-conic-gradient(red 10%, yellow 20%);
+}
+
+.repeating-conic-gradient-startEnd {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-image: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, green 20deg 30deg);
 }/*# sourceMappingURL=style.css.map */
