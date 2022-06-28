@@ -244,3 +244,37 @@ box-shadow: horiPX vertiPX blurPX spreadPX colorName inset(shadow inside the box
 box-shadow: horiPX vertiPX blurPX spreadPX colorName, horiPX vertiPX blurPX spreadPX colorName;
 box-shadow: horiPX vertiPX blurPX spreadPX rgba(0, 0, 0, 0.3); (transparent color)
 
+text-overflow: clip/ellipse;        clip cuts the text, ellipse adds three dot before cutting.
+word-wrap: break-work/break-all/keep-all;
+writing-mode: horizontal-tb/vertical-rl;
+
+
+@font-face{
+    font-family: myFirstFont;
+    src: url();
+}
+div {
+    font-family: myFirstFont;
+}
+
+
+transform
+transform: translate(horiPX, vertiPX);
+transform: rotate(+/-deg);
+transform: rotateX(+/-deg);
+transform: rotateY(+/-deg);
+transform: rotateZ(+/-deg);
+transform: scale(horiNUM, vertiNUM);
+transform: scaleX(NUM);
+transform: scaleY(NUM);
+transform: skew(horiDEG, vertiDEG);
+transform: scaleX(deg);
+transform: scaleY(deg);
+transform: matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY());
+
+transition
+transition: property duration;
+transition-delay: numSEC;
+transition-duration: numSEC;
+transition-property: width/height/color/background-color/transform;
+transition-timing-function: ease/linear/ease-in/ease-out/ease-in-out/cubic-bezier(n,n,n,n);
