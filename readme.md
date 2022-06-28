@@ -23,6 +23,7 @@ border-style: topStyle rightStyle bottomStyle leftStyle;
 
 
 margin shorthand
+margin: auto;      centered the element by adding equal margin at left and right.
 margin: allFourSides;
 margin: topBottom leftRight;
 margin: top leftRight bottom;
@@ -38,3 +39,12 @@ padding: topBottom leftRight;
 padding: top leftRight bottom;
 padding: top right bottom left;
 
+
+
+
+height and width values
+auto = default
+% = percentage of the containing box
+px/rem = specified length
+initial = sets to default value
+inherit = inherit from parent element
