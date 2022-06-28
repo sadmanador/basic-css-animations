@@ -278,3 +278,60 @@ transition-delay: numSEC;
 transition-duration: numSEC;
 transition-property: width/height/color/background-color/transform;
 transition-timing-function: ease/linear/ease-in/ease-out/ease-in-out/cubic-bezier(n,n,n,n);
+
+
+
+animation property
+background-color
+color
+top, right, bottom, left        when position: relative;
+
+@keyframes animationName {
+    from{}
+    to{}
+}
+
+div {
+    animation-name: animationName;
+    animation-duration: numSEC;
+    animation-timing-function: ease/linear/ease-in/ease-out/ease-in-out/cubic-bezier(n,n,n,n);
+    animation-delay: numSEC;
+    animation-iteration-count: numTimeanimationRun/infinite;
+    animation-direction: normal/reverse/alternate/alternate-reverse;
+    animation-fill-mode: none(default)/forwards/backwards/both;
+}
+animation shorthand
+animation: name duration timing-function delay iteration-count direction;
+
+@keyframes animationName {
+    0%{}
+    25%{}
+    50%{}
+    75%{}
+    100%{}
+}
+
+-webkit-box-reflection: above/left/below/right gapPX linear-gradient();
+
+
+flex-box
+
+.container
+display: flex;
+flex-direction: row/row-reverse/column/column-reverse;
+flex-wrap: wrap/nowrap/reverse-wrap;        flexItem with break when necessary.
+flex-flow: direction wrap;
+justify-content: flex-start/center/flex-end/space-around/space-between;     horizontal alignment
+align-items: flex-start/center/flex-end/stretch/baseline;     vertical alignment
+align-content: flex-start/center/flex-end/stretch/space-around/space-between;     align flex lines.
+
+
+.item
+order: num;
+flex-grow: num;     similar as span column
+flex-shrink: num;       1(default) higher than 1 will shrink the item.
+flex-basis: px/rem;     width of an individual item.
+flex shorthand
+flex: grow shrink basis;
+align-self: flex-start/center/flex-end;     override the align-item of container and item height.
+
