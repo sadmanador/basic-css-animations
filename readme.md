@@ -156,3 +156,91 @@ right: 0px;
 
 
 clearfix
+when an element is taller than the container, clearfix can be used.
+container {
+    display: table;
+    clear: both;
+    content: "";
+}
+img{
+    float: right;
+}
+
+vertically aligning content
+add top & bottom-padding
+
+both vertically & horizontally centering
+padding: 50px 0;
+text-align: center;
+
+opacity: 0.0 - 1;
+
+border-radius: px/rem;
+
+border-image: url('path') num/% round/stretch;
+
+background-image: url();
+background-position: right bottom ;
+background-repeat: no-repeat ;
+
+double background image
+background-image: url(), url();
+background-position: right bottom, left top ;
+background-repeat: no-repeat, repeat ;
+
+background-size     specify the size of the image in lenght or percentile or in cover and contain.
+background-size: contain;     scales the img to best fit it's container     
+background-size: cover;     stretch the img so that the img will cover the whole container, img might be a lill cropped to cover the container.
+
+background-origin       specifies the position of the background-image
+background-origin: border-box;      img start from the upper left corner of the border.
+background-origin: padding-box;     (default)img start from the upper left corner of the padding edge.
+background-origin: content-box;     img start from the upper left corner of the content.
+
+background-clip     specifies the background printing area(from where the background will start)
+background-clip: border-box;        (default) background will start from the edge of the border.
+background-clip: padding-box;       background will start from the edge of the padding.
+background-clip: content-box;       background will start from the edge of the content.
+
+
+color keyword
+color: inherit;
+color: transparent;
+border: currentcolor;       will take transparent from the color:.
+
+
+gradient
+linear-gradient
+background-image: linear-gradient(to right/left/top/bottom, colorName, colorName);
+background-image: linear-gradient(deg, colorName, colorName);
+background-image: repeating-linear-gradient(to right/left/top/bottom, colorName %, colorName %);
+
+
+radial-gradient
+background-image: radial-gradient(colorName, colorName);
+background-image: radial-gradient(colorName %, colorName %);
+background-image: radial-gradient(circle/ellipse, colorName, colorName);
+background-image: radial-gradient(closest-side at hori% verti%, colorName, colorName);
+background-image: radial-gradient(farthest-side at hori% verti%, colorName, colorName);
+background-image: radial-gradient(closest-corner at hori% verti%, colorName, colorName);
+background-image: radial-gradient(farthest-corner at hori% verti%, colorName, colorName);
+background-image: repeating-radial-gradient(colorName, colorName %, colorName %);
+
+
+conic-gradient
+background-image: conic-gradient(colorName, colorName, colorName);
+background-image: conic-gradient(colorName deg, colorName deg, colorName deg);
+background-image: conic-gradient(colorName startDeg endDeg, colorName startDeg endDeg, colorName startDeg endDeg);
+background-image: conic-gradient(from 90deg, colorName, colorName, colorName);
+background-image: conic-gradient(at hori% verti%, colorName, colorName, colorName);
+background-image: conic-gradient(from 90deg at hori% verti%, colorName, colorName, colorName);
+
+box-shadow
+box-shadow: horiPX vertiPX;
+box-shadow: horiPX vertiPX colorName;
+box-shadow: horiPX vertiPX blurPX colorName;
+box-shadow: horiPX vertiPX blurPX spreadPX colorName;
+box-shadow: horiPX vertiPX blurPX spreadPX colorName inset(shadow inside the box);
+box-shadow: horiPX vertiPX blurPX spreadPX colorName, horiPX vertiPX blurPX spreadPX colorName;
+box-shadow: horiPX vertiPX blurPX spreadPX rgba(0, 0, 0, 0.3); (transparent color)
+
