@@ -192,6 +192,9 @@ background-size     specify the size of the image in lenght or percentile or in 
 background-size: contain;     scales the img to best fit it's container     
 background-size: cover;     stretch the img so that the img will cover the whole container, img might be a lill cropped to cover the container.
 
+object-fit: fill/cover/contain/none/scale-down;
+object-position: hori% verti%;
+
 background-origin       specifies the position of the background-image
 background-origin: border-box;      img start from the upper left corner of the border.
 background-origin: padding-box;     (default)img start from the upper left corner of the padding edge.
@@ -335,3 +338,28 @@ flex shorthand
 flex: grow shrink basis;
 align-self: flex-start/center/flex-end;     override the align-item of container and item height.
 
+
+
+
+
+grid layout
+
+.container
+display: grid/inline-grid;
+gap: px/rem;        defines the gap between items.
+grid-template-column: auto/%/px/rem     auto/%/px/rem   auto/%/px/rem;      for three column layout.
+grid-template-row: auto/%/px/rem     auto/%/px/rem   auto/%/px/rem;      for three row layout.
+justify-content: space-evenly/space-around/space-between/center/start/end;      horizontally adding space.
+align-content: space-evenly/space-around/space-between/center/start/end;      vertical adding space.
+
+
+.item
+grid-column: 1 / 3;     start at grid column line 1 and ends at line 3.
+grid-column: 1 / span 3;     start at grid column line 1 and span 3 columns.
+grid-row: 1 / 3;     start at grid row line 1 and ends at line 3.
+grid-column: 1 / span 3;     start at grid row line 1 and span 3 rows.
+grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end;
+grid-area: 1 / 1 / span 3 / span 4;     also supports span.
+grid-area: myGridName;      also be use to assign a name of grid item.
+.container
+grid-template-areas: 'myGridName myGridName myGridName';    to span gridItem myGridName to span 3 columns.
