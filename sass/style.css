@@ -827,6 +827,12 @@ pre span {
   font-weight: bold;
 }
 
+span.property {
+  color: red;
+  display: inline;
+  background-color: #1D2A35;
+}
+
 .navbar {
   list-style-type: none;
   margin: 0;
@@ -1689,4 +1695,11 @@ p.word-wrap-break-all {
   margin: auto;
   -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
+}
+
+.object-fit-cover {
+  width: 300px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */
