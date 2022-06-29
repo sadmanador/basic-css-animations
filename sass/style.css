@@ -1700,8 +1700,8 @@ p.word-wrap-break-all {
 }
 
 .object-fit-cover {
-  width: 300px;
-  height: 200px;
+  width: 100px;
+  height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -1732,4 +1732,24 @@ p.word-wrap-break-all {
   height: 200px;
   -o-object-fit: scale-down;
      object-fit: scale-down;
+}
+
+.object-position-1 {
+  border: none;
+  width: 400px;
+  height: 667px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 10% 100%;
+     object-position: 10% 100%;
+}
+
+.object-position-2 {
+  border: none;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 1000px;
+  height: 300px;
+  -o-object-position: 100% 10%;
+     object-position: 100% 10%;
 }/*# sourceMappingURL=style.css.map */
