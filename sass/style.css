@@ -1396,6 +1396,38 @@ body {
   background-color: rgb(199, 217, 232);
 }
 
+.center-align-div {
+  margin: auto;
+  color: green;
+  border: 3px solid green;
+  width: 50%;
+}
+
+.center-image {
+  display: block;
+  margin: auto;
+  width: 300px;
+}
+
+.align-right {
+  border: 3px solid green;
+  width: 50%;
+  color: green;
+  position: absolute;
+  right: 0px;
+}
+
+.align-float-right {
+  border: 3px solid green;
+  width: 50%;
+  color: green;
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
 [class*=overflow-] {
   margin: auto;
   width: 200px;

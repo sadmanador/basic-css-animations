@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../sass/style.css">
+    <title>Align</title>
+</head>
+<body>
+    <h2><a href="/index.html">Home</a></h2>
+
+    <h2>center align any element</h2>
+    <div class="center-align-div">
+        <p>This element is center aligned using margin: auto;<br>
+        margin: auto; give equal left & right margin to horizontally align element. <br>
+        text-align: center; to make the text of the element aligned at the center.</p>
+    </div>
+    <code>
+        <pre>
+            div {
+                margin: auto;
+                text-align: center;
+            }
+        </pre>
+    </code><br>
+
+
+    <h2>center an image</h2>
+    <img src="../../img/pineapple.jpg" class="center-image">
+    <code>
+        <pre>
+            img {
+                margin: auto;
+                display: block;
+            }
+        </pre>
+    </code><br>
+
+
+    <h2>left & right align using position: absolute;</h2>
+    <div class="align-right">
+        <p>This text is align right using position: absolute; & right: 0px;</p>
+    </div><br><br><br>
+    
+    <code>
+        <pre>
+            position: absolute;
+            right: 0px;
+        </pre>
+    </code><br>
+
+    <h2>left & right align using float</h2>
+    <div class="align-float-right">
+        <p>This element is align right using float: right; property. <br>
+        however, the next element need to be clearfix clear: both;</p>
+    </div>
+    <div class="clearfix">
+        <code>
+            <pre>
+                div {
+                    float: right;
+                }
+            </pre>
+        </code>
+    </div>
+    
+</body>
+</html>
