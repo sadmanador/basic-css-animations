@@ -830,7 +830,9 @@ pre span {
 span.property {
   color: red;
   display: inline;
-  background-color: #1D2A35;
+  background-color: rgba(77, 93, 107, 0.5);
+  border-radius: 3px;
+  padding: 1px 5px;
 }
 
 .navbar {
@@ -1702,4 +1704,32 @@ p.word-wrap-break-all {
   height: 200px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.object-fit-contain {
+  width: 300px;
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.object-fit-fill {
+  width: 300px;
+  height: 200px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.object-fit-none {
+  width: 300px;
+  height: 200px;
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+.object-fit-scale-down {
+  width: 300px;
+  height: 200px;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
 }/*# sourceMappingURL=style.css.map */
