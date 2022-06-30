@@ -1,0 +1,14 @@
+img.non-masked {
+    width: 600px;
+}
+
+.mask-image {
+    mask-image: url(../../img/w3logo.png);
+    mask-repeat: no-repeat;
+    width: 600px;
+}
+
+.mask-image-repeat {
+    mask-image: url(../../img/w3logo.png);
+}
+
