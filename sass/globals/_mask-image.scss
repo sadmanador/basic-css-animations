@@ -10,5 +10,10 @@ img.non-masked {
 
 .mask-image-repeat {
     mask-image: url(../../img/w3logo.png);
+    width: 600%;
 }
 
+.mask-image-gradient {
+    mask-image: linear-gradient(to right, black, transparent);
+    height: 100% !important;
+}
