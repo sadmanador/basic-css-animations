@@ -14,15 +14,17 @@
     height: 560px;
 }
 
-.animation-colorChange {
-    animation-name: colorChange;
-    animation-duration: 10s;
-}
-
 @keyframes colorChange {
     from {background-color: red;}
     to {background-color: yellow;}
 }
+
+.animation-colorChange {
+    background-color: red;
+    animation-name: colorChange;
+    animation-duration: 10s;
+}
+
 
 .animation-colorChange-percentage {
     @include animation-box;
