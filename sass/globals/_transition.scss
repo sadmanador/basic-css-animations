@@ -1,4 +1,4 @@
-[class^="transition"] {
+@mixin transition-box {
     height: 100px;
     width: 100px;
     background: red;
@@ -9,6 +9,7 @@
 
 
 .transition-width {
+    @include transition-box;
     transition: width 10s;
 }
 
@@ -17,6 +18,7 @@
 }
 
 .transition-width-height {
+    @include transition-box;
     transition: width 2s, height 12s;
 }
 
@@ -36,30 +38,37 @@
 
 
 .transition-timing-function-ease {
+    @include transition-box;
     transition-timing-function: ease;
 }
 
 .transition-timing-function-linear {
+    @include transition-box;
     transition-timing-function: linear;
 }
 
 .transition-timing-function-ease-in {
+    @include transition-box;
     transition-timing-function: ease-in;
 }
 
 .transition-timing-function-ease-out {
+    @include transition-box;
     transition-timing-function: ease-out;
 }
 
 .transition-timing-function-ease-in-out {
+    @include transition-box;
     transition-timing-function: ease-in-out;
 }
 
 .transition-timing-function-cubic-bezier {
+    @include transition-box;
     transition-timing-function: cubic-bezier(.17,.67,.56,.42);
 }
 
 .transition-delay {
+    @include transition-box;
     transition: width 3s;
     transition-delay: 1s;
 }
@@ -69,6 +78,7 @@
 }
 
 .transition-transform {
+    @include transition-box;
     transition: width 2s, height 2s, transform 2s;
 }
 
@@ -79,6 +89,7 @@
 }
 
 .transition-all {
+    @include transition-box;
     transition-property: width;
     transition-duration: 5s;
     transition-timing-function: ease-in-out;
@@ -90,6 +101,7 @@
 }
 
 .transition-shorthand {
+    @include transition-box;
     transition: width 3s ease-in 1s;
 }
 

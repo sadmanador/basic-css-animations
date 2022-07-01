@@ -1,4 +1,4 @@
-[class*='overflow-'] {
+@mixin overflow {
     margin: auto;
     width: 200px;
     height: 65px;
@@ -7,32 +7,38 @@
 
 
 .container-overflow {
+    @include overflow;
     height: 250px;
 }
 
 .overflow-visible {
+    @include overflow;
     overflow: visible;
 }
 
 .overflow-hidden {
+    @include overflow;
     height: 65px !important;
     overflow: hidden;
     z-index: 1;
 }
 
 .overflow-scroll {
+    @include overflow;
     overflow: scroll;
     height: 200px;
 }
 
 .overflow-auto {
+    @include overflow;
     overflow: auto;
     height: 200px;
 }
 
 
 .overflow-x-y {
-    overflow-y: hidden;
-    overflow-x: scroll;
+    @include overflow;
+    overflow-y: scroll;
+    overflow-x: hidden;
     height: 200px;
 }

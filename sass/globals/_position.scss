@@ -1,17 +1,20 @@
-[class*='position'] {
+@mixin position {
     border: 3px solid #73AD21;
 }
 
 .position-static {
+    @include position;
     position: static;
 }
 
 .position-relative {
+    @include position;
     position: relative;
     left: 100px;
 }
 
 .position-fixed {
+    @include position;
     width: 300px;
     color: white;
     position: fixed;
@@ -24,6 +27,7 @@
 
 
 .position-relative-parent{
+    @include position;
     position: relative;
     width: 750px;
     height: 150px;
@@ -31,12 +35,14 @@
 }
 
 .position-absolute {
+    @include position;
     position: absolute;
     bottom: 0;
     right: 0;
 }
 
 .overflow-item {
+    @include position;
     background-color: antiquewhite;
     width: 400px;
     height: 150px;
@@ -45,6 +51,7 @@
 }
 
 .position-sticky {
+    @include position;
     background-color: aqua;
     position: sticky;
     top: 0;

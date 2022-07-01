@@ -1,12 +1,9 @@
-[class^=transition] {
+.transition-width {
   height: 100px;
   width: 100px;
   background: red;
   color: white;
   font-size: 15px;
-}
-
-.transition-width {
   transition: width 10s;
 }
 
@@ -15,6 +12,11 @@
 }
 
 .transition-width-height {
+  height: 100px;
+  width: 100px;
+  background: red;
+  color: white;
+  font-size: 15px;
   transition: width 2s, height 12s;
 }
 
@@ -32,30 +34,65 @@
 }
 
 .transition-timing-function-ease {
+  height: 100px;
+  width: 100px;
+  background: red;
+  color: white;
+  font-size: 15px;
   transition-timing-function: ease;
 }
 
 .transition-timing-function-linear {
+  height: 100px;
+  width: 100px;
+  background: red;
+  color: white;
+  font-size: 15px;
   transition-timing-function: linear;
 }
 
 .transition-timing-function-ease-in {
+  height: 100px;
+  width: 100px;
+  background: red;
+  color: white;
+  font-size: 15px;
   transition-timing-function: ease-in;
 }
 
 .transition-timing-function-ease-out {
+  height: 100px;
+  width: 100px;
+  background: red;
+  color: white;
+  font-size: 15px;
   transition-timing-function: ease-out;
 }
 
 .transition-timing-function-ease-in-out {
+  height: 100px;
+  width: 100px;
+  background: red;
+  color: white;
+  font-size: 15px;
   transition-timing-function: ease-in-out;
 }
 
 .transition-timing-function-cubic-bezier {
+  height: 100px;
+  width: 100px;
+  background: red;
+  color: white;
+  font-size: 15px;
   transition-timing-function: cubic-bezier(0.17, 0.67, 0.56, 0.42);
 }
 
 .transition-delay {
+  height: 100px;
+  width: 100px;
+  background: red;
+  color: white;
+  font-size: 15px;
   transition: width 3s;
   transition-delay: 1s;
 }
@@ -65,6 +102,11 @@
 }
 
 .transition-transform {
+  height: 100px;
+  width: 100px;
+  background: red;
+  color: white;
+  font-size: 15px;
   transition: width 2s, height 2s, transform 2s;
 }
 
@@ -75,6 +117,11 @@
 }
 
 .transition-all {
+  height: 100px;
+  width: 100px;
+  background: red;
+  color: white;
+  font-size: 15px;
   transition-property: width;
   transition-duration: 5s;
   transition-timing-function: ease-in-out;
@@ -86,6 +133,11 @@
 }
 
 .transition-shorthand {
+  height: 100px;
+  width: 100px;
+  background: red;
+  color: white;
+  font-size: 15px;
   transition: width 3s ease-in 1s;
 }
 
@@ -122,14 +174,6 @@
   transform: skew(20deg, 10deg);
 }
 
-[class^=animation] {
-  height: 100px;
-  width: 100px;
-  color: white;
-  font-size: 15px;
-  background-color: red;
-}
-
 .elementPath {
   height: 320px;
 }
@@ -163,6 +207,11 @@
   }
 }
 .animation-colorChange-percentage {
+  height: 100px;
+  width: 100px;
+  color: white;
+  font-size: 15px;
+  background-color: red;
   -webkit-animation-name: percentage;
           animation-name: percentage;
   -webkit-animation-duration: 10s;
@@ -199,6 +248,11 @@
   }
 }
 .animation-color-position {
+  height: 100px;
+  width: 100px;
+  color: white;
+  font-size: 15px;
+  background-color: red;
   -webkit-animation-name: colorPosition;
           animation-name: colorPosition;
   -webkit-animation-duration: 10s;
@@ -262,6 +316,11 @@
   }
 }
 .animation-delayed {
+  height: 100px;
+  width: 100px;
+  color: white;
+  font-size: 15px;
+  background-color: red;
   -webkit-animation-name: animationDelayed;
           animation-name: animationDelayed;
   -webkit-animation-duration: 10s;
@@ -307,6 +366,11 @@
   }
 }
 .animation-negative-delay {
+  height: 100px;
+  width: 100px;
+  color: white;
+  font-size: 15px;
+  background-color: red;
   -webkit-animation-name: animationDelayed;
           animation-name: animationDelayed;
   -webkit-animation-duration: 10s;
@@ -333,6 +397,11 @@
   }
 }
 .animation-iteration-count {
+  height: 100px;
+  width: 100px;
+  color: white;
+  font-size: 15px;
+  background-color: red;
   -webkit-animation-name: iteration3x;
           animation-name: iteration3x;
   -webkit-animation-duration: 5s;
@@ -398,6 +467,11 @@
   }
 }
 .animation-iteration-count-infinite {
+  height: 100px;
+  width: 100px;
+  color: white;
+  font-size: 15px;
+  background-color: red;
   -webkit-animation-name: iterationInfinite;
           animation-name: iterationInfinite;
   -webkit-animation-duration: 3s;
@@ -463,6 +537,11 @@
   }
 }
 .animation-direction-reverse {
+  height: 100px;
+  width: 100px;
+  color: white;
+  font-size: 15px;
+  background-color: red;
   -webkit-animation-name: reverseAnimation;
           animation-name: reverseAnimation;
   -webkit-animation-duration: 3s;
@@ -529,6 +608,11 @@
   }
 }
 .animation-direction-alternate {
+  height: 100px;
+  width: 100px;
+  color: white;
+  font-size: 15px;
+  background-color: red;
   -webkit-animation-name: alternateAnimation;
           animation-name: alternateAnimation;
   -webkit-animation-duration: 3s;
@@ -596,6 +680,11 @@
   }
 }
 .animation-direction-alternate-reverse {
+  height: 100px;
+  width: 100px;
+  color: white;
+  font-size: 15px;
+  background-color: red;
   -webkit-animation-name: alternateReverse;
           animation-name: alternateReverse;
   -webkit-animation-duration: 3s;
@@ -662,6 +751,11 @@
   }
 }
 [class*=animation-timing] {
+  height: 100px;
+  width: 100px;
+  color: white;
+  font-size: 15px;
+  background-color: red;
   -webkit-animation-name: timingFunction;
           animation-name: timingFunction;
   -webkit-animation-duration: 5s;
@@ -701,31 +795,90 @@
   }
 }
 .animation-timing-function-ease {
+  height: 100px;
+  width: 100px;
+  color: white;
+  font-size: 15px;
+  background-color: red;
   -webkit-animation-timing-function: ease;
           animation-timing-function: ease;
 }
 
 .animation-timing-function-linear {
+  height: 100px;
+  width: 100px;
+  color: white;
+  font-size: 15px;
+  background-color: red;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
 }
 
 .animation-timing-function-ease-in {
+  height: 100px;
+  width: 100px;
+  color: white;
+  font-size: 15px;
+  background-color: red;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
 }
 
 .animation-timing-function-ease-out {
+  height: 100px;
+  width: 100px;
+  color: white;
+  font-size: 15px;
+  background-color: red;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
 }
 
 .animation-timing-function-ease-in-out {
+  height: 100px;
+  width: 100px;
+  color: white;
+  font-size: 15px;
+  background-color: red;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
 }
 
-[class*=animation-fill] {
+@-webkit-keyframes fillMode {
+  0% {
+    background-color: red;
+    left: 0px;
+  }
+  50% {
+    background-color: green;
+    left: 500px;
+  }
+  100% {
+    background-color: blue;
+    left: 500px;
+  }
+}
+
+@keyframes fillMode {
+  0% {
+    background-color: red;
+    left: 0px;
+  }
+  50% {
+    background-color: green;
+    left: 500px;
+  }
+  100% {
+    background-color: blue;
+    left: 500px;
+  }
+}
+.animation-fill-mode-forwards {
+  height: 100px;
+  width: 100px;
+  color: white;
+  font-size: 15px;
+  background-color: red;
   -webkit-animation-name: fillMode;
           animation-name: fillMode;
   -webkit-animation-duration: 5s;
@@ -733,40 +886,40 @@
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
   position: relative;
-}
-
-@-webkit-keyframes fillMode {
-  from {
-    background-color: red;
-    left: 0px;
-  }
-  to {
-    background-color: green;
-    left: 500px;
-  }
-}
-
-@keyframes fillMode {
-  from {
-    background-color: red;
-    left: 0px;
-  }
-  to {
-    background-color: green;
-    left: 500px;
-  }
-}
-.animation-fill-mode-forwards {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
 
 .animation-fill-mode-backwards {
+  height: 100px;
+  width: 100px;
+  color: white;
+  font-size: 15px;
+  background-color: red;
+  -webkit-animation-name: fillMode;
+          animation-name: fillMode;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  position: relative;
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
 }
 
 .animation-fill-mode-both {
+  height: 100px;
+  width: 100px;
+  color: white;
+  font-size: 15px;
+  background-color: red;
+  -webkit-animation-name: fillMode;
+          animation-name: fillMode;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  position: relative;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -1008,33 +1161,35 @@ span.property {
   visibility: visible;
 }
 
-[class$=img] {
-  max-width: 800px;
-}
-
 .rounded-border-img {
+  max-width: 800px;
   border-radius: 25px;
 }
 
 .rounded-img {
+  max-width: 800px;
   border-radius: 50%;
 }
 
 .thumbnail-img, .link-img {
+  max-width: 800px;
   padding: 5px;
   border-radius: 15px;
 }
 
 .hover-img {
+  max-width: 800px;
   margin: auto;
 }
 
 .hover-img:hover {
+  max-width: 800px;
   box-shadow: 8px 10px 5px rgba(0, 0, 0, 0.4), 10px 15px 25px rgba(0, 0, 0, 0.35);
   border-radius: 15px;
 }
 
 .img-filter {
+  max-width: 800px;
   margin: auto;
   height: 520px;
 }
@@ -1080,6 +1235,7 @@ span.property {
   margin: auto;
 }
 .container-overlay .overlay-img {
+  max-width: 800px;
   display: block;
   width: 100%;
   height: auto;
@@ -1166,20 +1322,19 @@ span.property {
   -webkit-box-reflect: left 20px linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
 }
 
-[class*=position] {
-  border: 3px solid #73AD21;
-}
-
 .position-static {
+  border: 3px solid #73AD21;
   position: static;
 }
 
 .position-relative {
+  border: 3px solid #73AD21;
   position: relative;
   left: 100px;
 }
 
 .position-fixed {
+  border: 3px solid #73AD21;
   width: 300px;
   color: white;
   position: fixed;
@@ -1189,18 +1344,21 @@ span.property {
 }
 
 .position-relative-parent {
+  border: 3px solid #73AD21;
   position: relative;
   width: 750px;
   height: 150px;
 }
 
 .position-absolute {
+  border: 3px solid #73AD21;
   position: absolute;
   bottom: 0;
   right: 0;
 }
 
 .overflow-item {
+  border: 3px solid #73AD21;
   background-color: antiquewhite;
   width: 400px;
   height: 150px;
@@ -1209,6 +1367,7 @@ span.property {
 }
 
 .position-sticky {
+  border: 3px solid #73AD21;
   background-color: aqua;
   position: -webkit-sticky;
   position: sticky;
@@ -1345,40 +1504,50 @@ p.elem-class {
   text-shadow: 1px 0 black, -1px 0 black, 0 -1px black, 0 1px black;
 }
 
-[class*=box-shadow] {
+.simple-box-shadow {
   background-color: orangered;
   height: 75px;
   width: 200px;
   margin: auto;
-}
-
-.simple-box-shadow {
   box-shadow: 3px 3px;
 }
 
 .blur-box-shadow {
+  background-color: orangered;
+  height: 75px;
+  width: 200px;
+  margin: auto;
   box-shadow: 3px 3px 5px;
 }
 
 .color-box-shadow {
+  background-color: orangered;
+  height: 75px;
+  width: 200px;
+  margin: auto;
   box-shadow: 3px 3px 5px blue;
 }
 
 .spread-box-shadow {
+  background-color: orangered;
+  height: 75px;
+  width: 200px;
+  margin: auto;
   box-shadow: 3px 3px 2px 10px #3d3b3b;
 }
 
 .inset-box-shadow {
+  background-color: orangered;
+  height: 75px;
+  width: 200px;
+  margin: auto;
   box-shadow: -5px -5px 2px 5px inset;
 }
 
-[class*=multiple-box-shadow] {
+.blur-multiple-box-shadow {
   background-color: white;
   border: 1px solid black;
   box-shadow: 5px 5px blue, 10px 10px green, 15px 15px red;
-}
-
-.blur-multiple-box-shadow {
   box-shadow: 5px 5px 2px blue, 10px 10px 3px green, 15px 15px 4px red;
 }
 
@@ -1444,40 +1613,57 @@ body {
   clear: both;
 }
 
-[class*=overflow-] {
+.container-overflow {
   margin: auto;
   width: 200px;
   height: 65px;
   background-color: coral;
-}
-
-.container-overflow {
   height: 250px;
 }
 
 .overflow-visible {
+  margin: auto;
+  width: 200px;
+  height: 65px;
+  background-color: coral;
   overflow: visible;
 }
 
 .overflow-hidden {
+  margin: auto;
+  width: 200px;
+  height: 65px;
+  background-color: coral;
   height: 65px !important;
   overflow: hidden;
   z-index: 1;
 }
 
 .overflow-scroll {
+  margin: auto;
+  width: 200px;
+  height: 65px;
+  background-color: coral;
   overflow: scroll;
   height: 200px;
 }
 
 .overflow-auto {
+  margin: auto;
+  width: 200px;
+  height: 65px;
+  background-color: coral;
   overflow: auto;
   height: 200px;
 }
 
 .overflow-x-y {
-  overflow-y: hidden;
-  overflow-x: scroll;
+  margin: auto;
+  width: 200px;
+  height: 65px;
+  background-color: coral;
+  overflow-y: scroll;
+  overflow-x: hidden;
   height: 200px;
 }
 
@@ -1485,46 +1671,75 @@ body.gradient {
   background-color: white;
 }
 
-[class*=gradient] {
+.gradientLiner {
   text-align: center;
   margin: auto;
   width: 500px;
   height: 100px;
-}
-
-.gradientLiner {
   background-color: gray;
 }
 
 .linear-gradient {
+  text-align: center;
+  margin: auto;
+  width: 500px;
+  height: 100px;
   background-image: linear-gradient(red, yellow);
 }
 
 .linear-gradient-horizontal {
+  text-align: center;
+  margin: auto;
+  width: 500px;
+  height: 100px;
   background-image: linear-gradient(to right, red, yellow);
 }
 
 .linear-gradient-diagonal {
+  text-align: center;
+  margin: auto;
+  width: 500px;
+  height: 100px;
   background-image: linear-gradient(to bottom right, red, yellow);
 }
 
 .linear-gradient-degree {
+  text-align: center;
+  margin: auto;
+  width: 500px;
+  height: 100px;
   background-image: linear-gradient(150deg, red, green);
 }
 
 .linear-gradient-multiple {
+  text-align: center;
+  margin: auto;
+  width: 500px;
+  height: 100px;
   background-image: linear-gradient(180deg, red, yellow, green);
 }
 
 .linear-gradient-transparent {
+  text-align: center;
+  margin: auto;
+  width: 500px;
+  height: 100px;
   background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(255, 0, 0));
 }
 
 .linear-gradient-repeat {
+  text-align: center;
+  margin: auto;
+  width: 500px;
+  height: 100px;
   background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
 }
 
 .linear-gradient-repeat-deg {
+  text-align: center;
+  margin: auto;
+  width: 500px;
+  height: 100px;
   background-image: repeating-linear-gradient(45deg, red, yellow 7%, green 10%);
 }
 
@@ -1541,13 +1756,13 @@ body.gradient {
 }
 
 .radial-gradient-shape {
-  width: 400px;
+  width: 250px;
   height: 250px;
   background-image: radial-gradient(red, green, yellow 50%);
 }
 
 .radial-gradient-shape-circle {
-  width: 400px;
+  width: 250px;
   height: 250px;
   background-image: radial-gradient(circle, red, green, yellow 50%);
 }
@@ -1581,10 +1796,13 @@ body.gradient {
 }
 
 .repeating-radial-gradient {
+  width: 250px;
+  height: 250px;
   background-image: repeating-radial-gradient(red 5%, yellow 10%, green 8%);
 }
 
 .conic-gradient {
+  color: white;
   height: 250px;
   width: 250px;
   background-image: conic-gradient(red, yellow, green);
@@ -1598,18 +1816,21 @@ body.gradient {
 }
 
 .conic-gradient-degree {
+  color: white;
   height: 250px;
   width: 250px;
   background-image: conic-gradient(red 90deg, green 360deg);
 }
 
 .conic-gradient-solidColor {
+  color: white;
   height: 250px;
   width: 250px;
   background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, blue 180deg, blue 270deg, green 270deg, green 0deg);
 }
 
 .conic-gradient-pie {
+  color: white;
   height: 250px;
   width: 250px;
   border-radius: 50%;
@@ -1617,6 +1838,7 @@ body.gradient {
 }
 
 .conic-gradient-angle {
+  color: white;
   height: 250px;
   width: 250px;
   border-radius: 50%;
@@ -1624,6 +1846,7 @@ body.gradient {
 }
 
 .conic-gradient-specified-center {
+  color: white;
   height: 250px;
   width: 250px;
   border-radius: 50%;
@@ -1631,6 +1854,7 @@ body.gradient {
 }
 
 .conic-gradient-angle-center {
+  color: white;
   height: 250px;
   width: 250px;
   border-radius: 50%;
@@ -1638,6 +1862,7 @@ body.gradient {
 }
 
 .repeating-conic-gradient {
+  color: white;
   height: 250px;
   width: 250px;
   border-radius: 50%;
@@ -1645,6 +1870,7 @@ body.gradient {
 }
 
 .repeating-conic-gradient-startEnd {
+  color: white;
   height: 250px;
   width: 250px;
   border-radius: 50%;

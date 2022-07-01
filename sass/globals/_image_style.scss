@@ -1,28 +1,35 @@
-[class$="img"] {
+@mixin img-max-width {
     max-width: 800px;
 }
+
 .rounded-border-img {
+    @include img-max-width;
     border-radius: 25px;
 }
 
 .rounded-img {
+    @include img-max-width;
     border-radius: 50%;
 }
 
 .thumbnail-img, .link-img {
+    @include img-max-width;
     padding: 5px;
     border-radius: 15px;
 }
 
 .hover-img {
+    @include img-max-width;
     margin: auto;
 }
 .hover-img:hover {
+    @include img-max-width;
     box-shadow: 8px 10px 5px rgba(0, 0, 0, 0.4), 10px 15px 25px rgba(0, 0, 0, 0.35);
     border-radius: 15px;
 }
 
 .img-filter {
+    @include img-max-width;
     margin: auto;
     height: 520px;
 
@@ -52,6 +59,7 @@
     
 
     .overlay-img {
+        @include img-max-width;
         display: block;
         width: 100%;
         height: auto;
