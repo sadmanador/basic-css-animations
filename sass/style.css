@@ -2003,13 +2003,37 @@ img.non-masked {
 .mask-image-repeat {
   -webkit-mask-image: url(../../img/w3logo.png);
           mask-image: url(../../img/w3logo.png);
-  width: 600%;
+  width: 600px;
 }
 
 .mask-image-gradient {
   -webkit-mask-image: linear-gradient(to right, black, transparent);
           mask-image: linear-gradient(to right, black, transparent);
-  height: 100% !important;
+  width: 600px;
+}
+
+.mask-image-gradient-overflow {
+  -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent);
+          mask-image: linear-gradient(to bottom, black 80%, transparent);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-image: url(../../img/respon-img.jpg);
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 300px;
+  color: white;
+}
+.mask-image-gradient-overflow h2 {
+  font-size: 30px;
+}
+.mask-image-gradient-overflow p {
+  font-size: 22px;
+}
+
+.mask-image-radial-gradient {
+  -webkit-mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
+          mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
+  width: 600px;
 }
 
 .bemContainer {
