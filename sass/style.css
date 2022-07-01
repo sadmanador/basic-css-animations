@@ -2010,4 +2010,18 @@ img.non-masked {
   -webkit-mask-image: linear-gradient(to right, black, transparent);
           mask-image: linear-gradient(to right, black, transparent);
   height: 100% !important;
+}
+
+.bemContainer {
+  display: block;
+  height: 500px;
+  width: 350px;
+  background-color: rgb(219, 215, 215);
+}
+.bemContainer__img {
+  padding: 0 1rem;
+  border-radius: 30px;
+}
+.bemContainer__list {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */

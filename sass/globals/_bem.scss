@@ -1,0 +1,16 @@
+.bemContainer {
+    display: block;
+    height: 500px;
+    width: 350px;
+    background-color: rgb(219, 215, 215);
+
+    &__img {
+        padding: 0 1rem;
+        border-radius: 30px;
+    }
+
+    &__list {
+        display: flex;
+        
+    }
+}
