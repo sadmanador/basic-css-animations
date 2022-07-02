@@ -5,24 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../sass/dropdown.css">
-    <title>Document</title>
+    <title>Multilevel navbar</title>
 </head>
 <body>
-    <ul class="nav">
-        <li><a href="">Home</a></li>
-        <li><a href="">News</a></li>
-        <li><a href="">Feed</a></li>
-        <li><a href="">About</a></li>
-        <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
-            <div class="dropdown-content">
-                <a href="">Dropdown1</a>
-                <a href="">Dropdown2</a>
-                <a href="javascript:void(0)" class="dropbtn">Dropdown3</a>
-                <div class="dropdown-content">
-                    <a href="">Dropdown1</a>
-                    <a href="">Dropdown2</a>
-            </div>
-    </ul>
+   <ul class="dropdown">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">News</a>
+        <ul>
+            <li><a href="">News1</a>
+                <ul>
+                    <li><a href="">sub-news1</a></li>
+                    <li><a href="">sub-news2</a></li>
+                    <li><a href="">sub-news3</a>
+                        <ul>
+                            <li><a href="">3rd subnews1</a></li>
+                            <li><a href="">3rd subnews</a></li>
+                            <li><a href="">3rd subnews</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="">News2</a></li>
+            <li><a href="">News3</a></li>
+            <li><a href="">News4</a></li>
+        </ul>
+    </li>
+    <li><a href="#">Feed</a></li>
+    <li><a href="#">About</a></li>
+   </ul>
 </body>
 </html>
